@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <title>About</title>
+
+     <!-- Checkbox loop -->
+ <script type="text/javascript">
+ function selects(){ 
+ var ele=document.getElementsByName('chk'); 
+ for(var i=0; i<ele.length; i++){ 
+ if(ele[i].type=='checkbox') 
+ ele[i].checked=true; } 
+ } 
+ function deSelect(){ 
+ var ele=document.getElementsByName('chk'); 
+ for(var i=0; i<ele.length; i++){ 
+ if(ele[i].type=='checkbox') 
+ ele[i].checked=false; 
+ } 
+ } </script>
+
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <div class="containers">
+      <div class="navbar">
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/html/index.html"     class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+          <li class="nav-item"><a href="/html/profile.html"  class="nav-link"><i class="fas fa-shopping-cart"></i> Profile</a></li>
+          <li class="nav-item"><a href="/html/products.html"  class="nav-link"><i class="fas fa-coffee"></i> Products</a></li>
+          <li class="nav-item"><a href="/html/favorites.html" class="nav-link"><i class="fas fa-star"></i> Favorites</a></li>
+          <li class="nav-item"><a href="/html/login.html"     class="nav-link"><i class="fas fa-user-circle"></i> Sign in</a></li>
+        </ul>
+
+         <!-- Footer -->
+        <div class="menu">
+          <div class="follow">Follow Us</div>
+          <div class="lined"></div>
+          <div class="nav-menu">
+           <a href="https://www.facebook.com/" class="menu-link"><img src="/images/iconfb.png" width="100" height="100"></a>
+           <a href="https://www.instagram.com/" class="menu-link"><img src="/images/iconinsta.png" width="100" height="100"></a>
+           <div class="menu-link"><div class="mek"><img src="/images/iconemail.png" width="100" height="100">
+         
+            <div class="contains">
+              <div class="form-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>
